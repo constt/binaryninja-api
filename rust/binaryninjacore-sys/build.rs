@@ -91,7 +91,7 @@ fn main() {
 
     bindgen::builder()
         .header("../../binaryninjacore.h")
-        .clang_arg("-std=c++21")
+        .clang_arg("-std=c++19")
         .clang_arg("-x")
         .clang_arg("c++")
         .size_t_is_usize(true)
