@@ -23,7 +23,6 @@
 
 #ifndef BN_TYPE_PARSER
 #ifdef __cplusplus
-#include <stdbool.h>
 #include <stdint.h>
 #include <stddef.h>
 #include <stdlib.h>
