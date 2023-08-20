@@ -23,9 +23,9 @@
 
 #ifndef BN_TYPE_PARSER
 #ifdef __cplusplus
-#include <stdint.h>
-#include <stddef.h>
-#include <stdlib.h>
+#include <cstdint>
+#include <cstddef>
+#include <cstdlib>
 #else
 #include <stdbool.h>
 #include <stdint.h>
